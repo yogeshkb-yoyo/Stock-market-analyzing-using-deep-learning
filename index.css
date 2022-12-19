@@ -1,0 +1,35 @@
+.size-fix{
+    width:75%;
+    height:60%;   
+}
+
+.right{
+    width:75%;
+}
+
+.content{
+    background-color:azure;
+    width:75%;
+    padding: 40px;
+    padding-top:60px;
+    padding-bottom:60px;
+    margin: 100px auto;
+    border: radius 12px;
+    transition: 0.5s;
+}
+
+.content:hover{
+    width:78%;
+    transition: 1s;
+}
+
+body{
+    background-image: url("https://greenbuildinginsider.com/wp-content/uploads/2019/10/worst-green-stocks.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p,h5,.list{
+    font-size:20px ;
+    font-style:italic;
+}
